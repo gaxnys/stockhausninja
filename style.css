@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
+
+body {
+    font-family: Roboto;
+    font-weight: 400;
+    margin: 0;
+    color: black;
+    height: 200%;
+}
+
+.header {
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.subheader {
+    margin-top: -2rem;
+}
+
+.justified {
+    text-align: justify;
+    margin-top: 2rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.email {
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.navigation {
+    margin-top: 7vh;
+    display: block;
+}
+
+.strong {
+    font-size: 1.5rem;
+}
+
+.section {
+    margin-top: 3rem;
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: 0;
+}
+
+.partpage {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 6rem;
+}
+
+.white {
+    background-color: white;
+}
+
+.gray {
+    background-color: lightgray;
+}
+
+.item {
+    position: relative;
+    margin-top: 5rem;
+}
+
+.itemheader {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.timeperiod {
+    /*text-align: left;
+    position: absolute;*/
+    font-size: 0.8rem;
+}
+
+.itemcontent {
+    margin-top: 1rem;
+}
+
+a:link {
+       color: black;
+}
+
+a:visited {
+       color: black;
+}
+
+a:hover {
+       color: dimgray;
+}
+
+a:active {
+       color: gray;
+}

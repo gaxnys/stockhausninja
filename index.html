@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>stockhaus.ninja</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>$(document).ready(function(){$("a").on('click', function(event){if(this.hash!==""){event.preventDefault();var hash=this.hash;$('html, body').animate({scrollTop:$(hash).offset().top},200,function(){window.location.hash = hash;});}});});</script>
+    </head>
+    <body>
+        <div class="white partpage" id="start">
+            <h1 class="header">Alvin Stockhaus</h1>
+            <div class="subheader">Ever onward, always learning</div>
+            
+            <a href="#what" class="navigation">Work</a>
+            <a href="#projects" class="navigation">Projects</a>
+            <a href="#contact" class="navigation">Contact</a>
+        </div>
+
+        <div class="gray page" id="what">
+            <h1 class="header">Work</h1>
+                <div class="item">
+                    <div class="itemheader">
+                        Opera Software
+                    </div>
+
+                    <div class="timeperiod">
+                        June 2016 - August 2016
+                    </div>
+
+                    <div class="itemcontent">
+                        Summer intern<br>
+                        <a href="http://opera.com" target="_blank">http://opera.com</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="itemheader">
+                        Fundly AB
+                    </div>
+
+                    <div class="timeperiod">
+                        October 2015 - June 2016
+                    </div>
+
+                    <div class="itemcontent">
+                        Web programmer<br>
+                        <a href="http://fundly.se" target="_blank">http://fundly.se</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="itemheader">
+                        Korpulent Förlag
+                    </div>
+
+                    <div class="timeperiod">
+                        June 2015 - August 2015
+                    </div>
+
+                    <div class="itemcontent">
+                        Web programmer<br>
+                        <a href="http://korpulent.se" target="_blank">http://korpulent.se</a>
+                    </div>
+                </div>
+        </div>
+
+        <div class="white page" id="projects">
+            <h1 class="header">Projects</h1>
+                <div class="item">
+                    <div class="itemheader">
+                        <a href="https://stockhaus.ninja">stockhaus.ninja</a>
+                    </div>
+
+                    <div class="itemcontent">
+                        This page.
+                        Runs on a virtual server, on Amazon EC2.
+                    </div>
+                </div>
+        </div>
+        
+        <div class="gray page" id="contact">
+            <h1 class="header">Contact</h1>
+
+            <div class="email"><a href="mailto:alvin@stockhaus.ninja">alvin@stockhaus.ninja</a></div>
+        </div>
+    </body>
+</html>

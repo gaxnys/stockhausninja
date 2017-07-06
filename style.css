@@ -26,8 +26,11 @@ body {
 }
 
 .email {
-    margin-top: 30vh;
-    text-align: center;
+    margin-top: 25vh;
+}
+
+.github {
+    margin-top: 10vh;
 }
 
 .navigation {
@@ -71,6 +74,8 @@ body {
 .item {
     position: relative;
     margin-top: 5rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .itemheader {
@@ -103,4 +108,10 @@ a:hover {
 
 a:active {
        color: gray;
+}
+
+@media only screen and (min-width: 50rem) {
+    .header {
+        font-size: 5rem;
+    }
 }

@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
 
 body {
-    font-family: Roboto;
-    font-weight: 400;
+    font-family: Roboto, Sans-Serif;
+    font-weight: 300;
     margin: 0;
     color: black;
     height: 200%;
@@ -12,6 +12,14 @@ body {
     font-size: 3rem;
     font-weight: 100;
     text-align: center;
+}
+
+.hired {
+    text-decoration: line-through;
+}
+
+.available {
+    text-decoration: underline;
 }
 
 .subheader {
@@ -26,11 +34,15 @@ body {
 }
 
 .email {
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 
 .github {
-    margin-top: 10vh;
+    margin-top: 5vh;
+}
+
+.twitter {
+    margin-top: 5vh;
 }
 
 .navigation {
